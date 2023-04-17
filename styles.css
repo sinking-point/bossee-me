@@ -1,0 +1,99 @@
+:root {
+    --squeno-light: #f9f9f9;
+    --squeno-dark: #22435e;
+}
+
+body {
+    color: #242424;
+    background-color: var(--squeno-light);
+    font-family: Roboto,sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.limit-width {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--squeno-dark);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin: 0;
+    padding-top: 10px;
+    color: var(--squeno-light);
+    text-align: center;
+    font-size: xxx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#chatbox {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#messages {
+    overflow: scroll;
+    word-wrap: break-word;
+    flex: 1 1 auto;
+    height: 0;
+}
+
+#messages p {
+    background-color: var(--squeno-light);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#new-message {
+    display: flex;
+    background-color: var(--squeno-light);
+    border-radius: 5px;
+}
+
+#message-input {
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 100%;
+    font-family: inherit;
+    background: none;
+    outline: none;
+    min-width: 0;
+}
+
+#author {
+    margin: 10px;
+    max-width: 80px;
+    text-align: center;
+    align-self: center;
+}
+
+#menu-button {
+    height: 35px;
+    min-width: 35px;
+    align-self: center;
+    margin: 5px;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: var(--squeno-dark);
+    color: var(--squeno-light);
+    border-width: 0;
+    border-radius: 5px;
+}
+
+#menu {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--squeno-light);
+}
