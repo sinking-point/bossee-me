@@ -26,7 +26,15 @@ git clone https://github.com/sinking-point/bossee-me.git
 cd bossee-me
 ```
 
-3. Open the `index.html` file in your preferred web browser.
+3. Host the directory with a simple web server, e.g.:
+
+```
+python -m http.server
+```
+
+This will by default host the site on port 8000.
+
+4. Open a web browser and go to http://localhost:8000/ (or whatever port you hosted it on).
 
 ## Contributing
 
