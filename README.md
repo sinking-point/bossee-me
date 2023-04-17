@@ -1,6 +1,6 @@
 # Bossee.me - Roleplay as Boss and Employee
 
-Bossee.me is a web application that helps self-employed individuals discipline and motivate themselves by roleplaying as both boss and employee. The platform aims to improve productivity by enabling users to engage in conversations with their "boss" personas and set clear expectations for their work.
+[Bossee.me](https://www.bossee.me/) is a web application that helps self-employed individuals discipline and motivate themselves by roleplaying as both boss and employee. The platform aims to improve productivity by enabling users to engage in conversations with their "boss" personas and set clear expectations for their work.
 
 ## Features
 
